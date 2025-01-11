@@ -7,11 +7,11 @@ const ReefScreen = () => {
             <ReefPosition/>
             <div className="BarrierLine" style={{
                 position: "absolute",
-                height: "900px",
-                width: "10px",
+                height: "675px",
+                width: "7.5px",
                 backgroundColor: "gray",
-                top: "50px",
-                left: "640px"
+                top: "37.5px",
+                left: "480px"
             }}/>
             <ReefLevel/>
         </div>
