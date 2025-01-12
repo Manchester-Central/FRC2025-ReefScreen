@@ -1,25 +1,15 @@
+import Hexagon from "./Hexagon";
+
 const ReefPosition = () => {
     return (
         <div>
-            <div className="hexagon1" style={{
-                borderBottom: "195px solid gray",
-                borderLeft: "135px solid transparent",
-                borderRight: "135px solid transparent",
-                width: "225px",
+            <div style={{
                 position: "absolute",
-                top: "97.5px",
-                right: "213px"
-            }}/>
-            <div className="hexagon2" style={{
-                borderBottom: "195px solid gray",
-                borderLeft: "135px solid transparent",
-                borderRight: "135px solid transparent",
-                width: "225px",
-                position: "absolute",
-                top: "292px",
-                right: "213px",
-                rotate: "180deg"
-            }}/>
+                top: 108,
+                right: 235
+            }}>
+                <Hexagon size={380} color="gray"/>
+            </div>
             <button style={{
                 position: "absolute",
                 top: "75px",
