@@ -8,7 +8,7 @@ const ReefPosition = () => {
                 top: 108,
                 right: 235
             }}>
-                <Hexagon size={380} color="gray"/>
+                {/* <Hexagon size={380} color="gray"/> */}
             </div>
             <button style={{
                 position: "absolute",
