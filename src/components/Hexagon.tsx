@@ -2,7 +2,6 @@ function makeTriangle(isLeft:boolean, size:number, rotation:number, color:string
     const pointA = "0,0"
     const pointB = `0,${-size/2}`
     const pointC = isLeft?`${-size/(1.732*2)},${-size/2}`:`${size/(1.732*2)},${-size/2}`
-    const strokeWidth = size/200
     return(
     <polygon onClick={() => console.log(output)} points={`${pointA} ${pointB} ${pointC}`} style={{
         fill: color,
